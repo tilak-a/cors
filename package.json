@@ -12,6 +12,7 @@
     "url": "https://github.com/Rob--W/cors-anywhere/issues/",
     "email": "rob@robwu.nl"
   },
+  "main": "./lib/cors-anywhere.js",
   "keywords": [
     "cors",
     "cross-domain",
@@ -40,7 +41,6 @@
     "supertest": "^2.0.1"
   },
   "scripts": {
-    "start": "node ./lib/cors-anywhere.js",
     "lint": "eslint .",
     "test": "mocha ./test/test*.js --reporter spec",
     "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
